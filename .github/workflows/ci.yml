@@ -26,5 +26,6 @@ jobs:
           name: nsSCM
           sources: |
             Contrib/nsSCM/nsSCM.cpp
+          targets: x86-ansi
           strict: false
           release: ${{ github.event_name == 'release' }}
